@@ -1,4 +1,4 @@
-name: CDK Kotlin Deploy
+name: CDK Deploy
 
 on:
   push:
