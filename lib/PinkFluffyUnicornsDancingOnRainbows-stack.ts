@@ -3,14 +3,14 @@ import { Stack, StackProps, CfnOutput, Tags } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { Config } from './config';
 
-export class TraceabilityStack extends cdk.Stack {
+export class PinkFluffyUnicornsDancingOnRainbowsStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
     // Tags
     Tags.of(this).add('costTag-project', Config.COST_TAG_PROJECT);
     Tags.of(this).add('costTag-module', Config.COST_TAG_MODULE);
-    Tags.of(this).add('costTag-submodule', Config.COST_TAG_MODULE);
+    Tags.of(this).add('costTag-submodule', Config.COST_TAG_SUBMODULE_STACK_TWO);
     Tags.of(this).add('costTag-resource', Config.COST_TAG_RESOURCE);
     Tags.of(this).add('managedBy', Config.MANAGED_BY);
     Tags.of(this).add('backup-required', Config.BACKUP_REQUIRED);
