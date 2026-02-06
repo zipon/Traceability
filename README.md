@@ -55,3 +55,13 @@ When deployed via GitHub Actions, the following information is passed into CDK:
 Example CloudFormation output:
 
 zipon/Traceability (develop) @ e1acbc0
+
+## Article
+
+Read the full write-up on Medium:  
+[Where the hell is the git project that owns this?](https://lars-andersson.medium.com/where-the-hell-is-the-git-project-that-owns-this-550bd96dd230)
+
+## License
+
+This project is licensed under the **Beer-Ware License**.  
+If you use it and we ever meet, you owe me a beer 🍺
