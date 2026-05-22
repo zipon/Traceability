@@ -16,4 +16,4 @@ jobs:
     permissions:
       id-token: write      # Required for OIDC
       contents: read       # Required to clone the repo
-    uses: zipon/traceability/.github/workflows/deploy-ts.yml@develop
+    uses: ./.github/workflows/deploy-ts.yml
