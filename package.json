@@ -1,6 +1,7 @@
 {
   "name": "traceability",
   "version": "0.1.0",
+  "author": "Lars Andersson",
   "bin": {
     "traceability": "bin/traceability.js"
   },

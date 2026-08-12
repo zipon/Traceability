@@ -3,6 +3,8 @@
 **End-to-end traceability for AWS CDK deployments**  
 _Git → GitHub Actions → CDK → CloudFormation_
 
+Created by **Lars Andersson**.
+
 ## Why this project exists
 
 If you’ve ever opened a legacy AWS account and found a CloudFormation stack named something like:
